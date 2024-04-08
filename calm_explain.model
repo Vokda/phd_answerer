@@ -1,0 +1,8 @@
+FROM llama2
+
+PARAMETER temperature 0.5
+parameter num_gpu 1
+
+SYSTEM """
+Please answer the questions a thoroughly as possible in a professional and educational maner.
+"""
